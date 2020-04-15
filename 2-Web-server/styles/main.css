@@ -1,0 +1,50 @@
+body {
+    /* background-color: greenyellow; */
+}
+
+.box {
+    padding: 4px;
+    border: 1px solid gray ;
+    border-radius: 4px;
+    background-color: white;
+    width: 400px;
+    box-shadow: 2px 2px 1px grey;
+    margin-right: 32px;
+} 
+
+.box img {
+    border-radius: 4px;
+}
+
+.text_card {
+    padding: 0px 16px 16px 16px;
+    max-width: 400px;
+}
+
+.action_card {
+    padding-bottom: 16px;
+}
+
+.action_card {
+    padding: 0px 16px 16px 16px ;
+}
+
+.action_card a {
+    /* padding: 0px 16px 0px 16px ; */
+    padding: 8px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #287bf7e3;
+    color: white;
+}
+
+.action_card a:hover{
+    background-color: #287bf7;
+    text-decoration: underline;
+}
+
+.panel {
+    display: flex;
+    margin: auto;
+}
